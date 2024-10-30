@@ -2,6 +2,7 @@
 A drop-in memory pool for OpenFOAM that requires minimal code modifications and is compatible with various OpenFOAM flavours.
 
 ## Usage
+###### Paths shown may vary by OpenFoam flavour.
 
 Copy memoryPool.H to ```foam/containers/Lists/List/```
 
