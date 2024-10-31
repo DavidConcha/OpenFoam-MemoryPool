@@ -11,7 +11,7 @@ struct memPool{
     static unsigned short freePos_;
     static void * alloc() {
       if(freePos_ == 0) //empty
-        return alligned alloc(512, 1UL<<I);
+        return alligned_alloc(512, 1UL<<I);
       freePos_--;
       return pointers_[freePos_];
     }
